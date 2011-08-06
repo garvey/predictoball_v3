@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Predictoball | <%= @title %></title>
+  </head>
+  <body>
+    <h1>About</h1>
+    <p>About Predictoball. </p>
+  </body>
+</html>

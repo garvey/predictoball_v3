@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Predictoball - Socail prediction game | <%= @title %></title>
+  </head>
+  <body>
+    <h1>Contact</h1>
+    <p>
+      Contact Predictoball staff. 
+    </p>
+  </body>
+</html>
