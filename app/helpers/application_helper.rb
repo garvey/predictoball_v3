@@ -8,4 +8,12 @@ module ApplicationHelper
       "#{base_title} | #{@title}"
     end
   end
+
+  def logo
+    logo = image_tag("rails.png", :alt => "predictoball", :class => "round")
+    link_to logo, root_path
+  
+  end
+
+  
 end

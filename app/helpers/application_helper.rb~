@@ -1,11 +1,19 @@
 module ApplicationHelper
   # Return a title on a per-page basis.
   def title
-    base_title = "Predictoball social gaming"
+    base_title = "Predictoball - social gaming"
     if @title.nil?
       base_title
     else
       "#{base_title} | #{@title}"
     end
   end
+
+  def logo
+    <% logo = image_tag("rails.png", :alt => "predictoball", :class => "round") %>
+    <%= link_to logo, root_path %>
+  
+  end
+
+  
 end
